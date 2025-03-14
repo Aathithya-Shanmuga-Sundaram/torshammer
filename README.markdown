@@ -7,7 +7,7 @@ It works with the new TOR port 9150
 #### TORS HAMMER HOW TO  
 ----------------------------------------------------
 ```console
-git clone 
+git clone https://github.com/Aathithya-Shanmuga-Sundaram/torshammer.git
 cd torshammer
 ```
 You should now see a terminal-based GUI interface.
