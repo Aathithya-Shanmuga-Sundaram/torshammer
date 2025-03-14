@@ -15,6 +15,7 @@ You should now see a terminal-based GUI interface.
 Example usage:
 ```console
 python torshammer.py -t 192.168.1.100 -r 100000 -T
+python3 torshammer.py -t "www.example.com" -r 100000
 ```
 - The larger the thread count, the more efficient and effective the attack!!
 - -T adds the Tor function which provides security, as well, as providing a new identity in case the site is
