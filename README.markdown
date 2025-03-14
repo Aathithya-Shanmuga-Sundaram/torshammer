@@ -7,7 +7,8 @@ It works with the new TOR port 9150
 #### TORS HAMMER HOW TO  
 ----------------------------------------------------
 ```console
-python torshammer.py
+git clone 
+cd torshammer
 ```
 You should now see a terminal-based GUI interface.
 **Tor'shammer interface has it's own basic help menu that tells you how to run the script according to your target.**
