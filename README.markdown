@@ -21,3 +21,7 @@ python torshammer.py -t 192.168.1.100 -r 100000 -T
 programmed to ban IP addresses which leave an open connection for "x" amount of time. Tor'shammer's method of
 combining this is clever and effective, making it the powerful tool it is. However, Tor'shammer is only effective to
 apache servers which do not run nginx.
+
+
+NOTE: I'm not the owner of this tool, i debugged and made this running on current version
+Lastly Used in: 14/03/2025
