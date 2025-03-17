@@ -1,5 +1,3 @@
-Here's the updated README with the additional details formatted properly:  
-
 ---
 
 # 🚨 Use for Educational Purposes ONLY 🚨  
