@@ -1,30 +1,68 @@
-----------------------------------------------------
-# Use for educational purposes ONLY
+Here's the updated README with the additional details formatted properly:  
 
-## This is a maintained fork of Torshammer  
-It works with the new TOR port 9150  
+---
 
-#### TORS HAMMER HOW TO  
-----------------------------------------------------
-```console
+# 🚨 Use for Educational Purposes ONLY 🚨  
+
+## 🛠 Maintained Fork of Torshammer  
+This is a maintained version of **Torshammer**, updated to work with the latest **TOR port 9150**.  
+
+---
+
+## 📌 Installation  
+
+Clone the repository and navigate to the project folder:  
+
+```bash
 git clone https://github.com/Aathithya-Shanmuga-Sundaram/torshammer.git
 cd torshammer
 ```
-You should now see a terminal-based GUI interface.
-**Tor'shammer interface has it's own basic help menu that tells you how to run the script according to your target.**
 
-Example usage:
-```console
+---
+
+## 🚀 Usage  
+
+Tor’s Hammer provides a terminal-based interface with a built-in help menu to guide you.  
+
+### Example Commands:  
+
+```bash
 python torshammer.py -t 192.168.1.100 -r 100000 -T
 python3 torshammer.py -t "www.example.com" -r 100000
 ```
-- The larger the thread count, the more efficient and effective the attack!!
-- -T adds the Tor function which provides security, as well, as providing a new identity in case the site is
-programmed to ban IP addresses which leave an open connection for "x" amount of time. Tor'shammer's method of
-combining this is clever and effective, making it the powerful tool it is. However, Tor'shammer is only effective to
-apache servers which do not run nginx.
 
+### Parameters:
+- **`-t`** → Target IP or domain  
+- **`-r`** → Number of requests (higher values increase effectiveness)  
+- **`-T`** → Enables TOR for anonymity and bypassing IP bans  
 
-NOTE: I'm not the owner of this tool, i debugged and made this running on current version
+### **Using Tor (`-T` option)**  
+If you’re using the `-T` option to route traffic through Tor, ensure Tor is running before executing Torshammer:  
 
-Lastly Used in: 14/03/2025
+```bash
+service tor start
+```
+
+### **Fixing "Too many open files" Error**  
+If you encounter the following error:  
+
+```bash
+OSError: [Errno 24] Too many open files
+```  
+
+Increase the file descriptor limit before running Torshammer:  
+
+```bash
+ulimit -n 65535
+```
+
+---
+
+## 🔥 Key Features  
+✔ **Supports TOR** (`-T` flag) for increased security and anonymity  
+✔ **Highly effective** against **Apache servers** (but not against Nginx)  
+✔ **Multi-threaded attack** to increase impact  
+
+⚠ **Disclaimer:** Use responsibly. This tool is for educational and research purposes only.  
+
+📅 **Last used on:** *17/03/2025*  
